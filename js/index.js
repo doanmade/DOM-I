@@ -60,25 +60,10 @@ navArray[2].innerText = siteContent["nav"]["nav-item-3"];
 navArray[3].innerText = siteContent["nav"]["nav-item-4"];
 navArray[4].innerText = siteContent["nav"]["nav-item-5"];
 navArray[5].innerText = siteContent["nav"]["nav-item-6"];
+
 for (var i = 0; i < navArray.length; i++) {
-  navArray[i].style.color = "#32CD32";
+  navArray[i].style.color = "green";
 }
-
-// New links
-let newLink1 = document.createElement("a");
-let newLink2 = document.createElement("a");
-let navHolder = document.querySelector("nav");
-navHolder.appendChild(newLink1).innerHTML = "Welcome";
-navHolder.appendChild(newLink2).innerHTML = "Sponsors";
-
-console.log(`navHolder`);
-console.log(navHolder);
-
-// let newLink1 = document.createElement('a');
-// let newLink2 = document.createElement('a').innerHTML = "Home";
-// let navTag = document.querySelector('nav');
-// navTag.appendChild(newLink1).innerHTML = "Opportunities";
-// navTag.prepend(newLink2);
 
 // Header section
 let header = document.querySelector(".cta h1");
