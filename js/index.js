@@ -65,6 +65,16 @@ for (var i = 0; i < navArray.length; i++) {
   navArray[i].style.color = "green";
 }
 
+// New links
+let newLink1 = document.createElement("a");
+let newLink2 = document.createElement("a");
+let navSection = document.querySelector("nav");
+navSection.appendChild(newLink1).innerHTML = "Welcome";
+navSection.appendChild(newLink2).innerHTML = "Sponsors";
+
+console.log(`navSection`);
+console.log(navSection);
+
 // Header section
 let header = document.querySelector(".cta h1");
 header.innerHTML = siteContent["cta"]["h1"];
